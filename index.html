@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>هاجر البريكي - مهندسة اتصالات وإلكترونيات</title>
+    <link rel="stylesheet" href="style.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <i class="fas fa-satellite-dish"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link" data-lang="nav-home">الرئيسية</a></li>
+            <li><a href="#about" class="nav-link" data-lang="nav-about">نبذة عني</a></li>
+            <li><a href="#experience" class="nav-link" data-lang="nav-experience">الخبرات</a></li>
+            <li><a href="#skills" class="nav-link" data-lang="nav-skills">المهارات</a></li>
+            <li><a href="#certificates" class="nav-link" data-lang="nav-certificates">الدورات التدريبية</a></li>
+            <li><a href="#contact" class="nav-link" data-lang="nav-contact">تواصل معي</a></li>
+            <li><a href="resume.pdf" class="nav-link download-cv" target="_blank" download><i class="fas fa-download"></i> تحميل السيرة الذاتية</a></li>
+        </ul>
+        
+        <label class="theme-switch">
+          <input class="theme-switch__checkbox" type="checkbox" />
+          <div class="theme-switch__container">
+            <div class="theme-switch__clouds"></div>
+            <div class="theme-switch__stars-container">
+              <svg fill="none" viewBox="0 0 144 55" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill="currentColor"
+                  d="M135.831 3.00688C135.055 3.85027 134.111 4.29946 133 4.35447C134.111 4.40947 135.055 4.85867 135.831 5.71123C136.607 6.55462 136.996 7.56303 136.996 8.72727C136.996 7.95722 137.172 7.25134 137.525 6.59129C137.886 5.93124 138.372 5.39954 138.98 5.00535C139.598 4.60199 140.268 4.39114 141 4.35447C139.88 4.2903 138.936 3.85027 138.16 3.00688C137.384 2.16348 136.996 1.16425 136.996 0C136.996 1.16425 136.607 2.16348 135.831 3.00688ZM31 23.3545C32.1114 23.2995 33.0551 22.8503 33.8313 22.0069C34.6075 21.1635 34.9956 20.1642 34.9956 19C34.9956 20.1642 35.3837 21.1635 36.1599 22.0069C36.9361 22.8503 37.8798 23.2903 39 23.3545C38.2679 23.3911 37.5976 23.602 36.9802 24.0053C36.3716 24.3995 35.8864 24.9312 35.5248 25.5913C35.172 26.2513 34.9956 26.9572 34.9956 27.7273C34.9956 26.563 34.6075 25.5546 33.8313 24.7112C33.0551 23.8587 32.1114 23.4095 31 23.3545ZM0 36.3545C1.11136 36.2995 2.05513 35.8503 2.83131 35.0069C3.6075 34.1635 3.99559 33.1642 3.99559 32C3.99559 33.1642 4.38368 34.1635 5.15987 35.0069C5.93605 35.8503 6.87982 36.2903 8 36.3545C7.26792 36.3911 6.59757 36.602 5.98015 37.0053C5.37155 37.3995 4.88644 37.9312 4.52481 38.5913C4.172 39.2513 3.99559 39.9572 3.99559 40.7273C3.99559 39.563 3.6075 38.5546 2.83131 37.7112C2.05513 36.8587 1.11136 36.4095 0 36.3545ZM56.8313 24.0069C56.0551 24.8503 55.1114 25.2995 54 25.3545C55.1114 25.4095 56.0551 25.8587 56.8313 26.7112C57.6075 27.5546 57.9956 28.563 57.9956 29.7273C57.9956 28.9572 58.172 28.2513 58.5248 27.5913C58.8864 26.9312 59.3716 26.3995 59.9802 26.0053C60.5976 25.602 61.2679 25.3911 62 25.3545C60.8798 25.2903 59.9361 24.8503 59.1599 24.0069C58.3837 23.1635 57.9956 22.1642 57.9956 21C57.9956 22.1642 57.6075 23.1635 56.8313 24.0069ZM81 25.3545C82.1114 25.2995 83.0551 24.8503 83.8313 24.0069C84.6075 23.1635 84.9956 22.1642 84.9956 21C84.9956 22.1642 85.3837 23.1635 86.1599 24.0069C86.9361 24.8503 87.8798 25.2903 89 25.3545C88.2679 25.3911 87.5976 25.602 86.9802 26.0053C86.3716 26.3995 85.8864 26.9312 85.5248 27.5913C85.172 28.2513 84.9956 28.9572 84.9956 29.7273C84.9956 28.563 84.6075 27.5546 83.8313 26.7112C83.0551 25.8587 82.1114 25.4095 81 25.3545ZM136 36.3545C137.111 36.2995 138.055 35.8503 138.831 35.0069C139.607 34.1635 139.996 33.1642 139.996 32C139.996 33.1642 140.384 34.1635 141.16 35.0069C141.936 35.8503 142.88 36.2903 144 36.3545C143.268 36.3911 142.598 36.602 141.98 37.0053C141.372 37.3995 140.886 37.9312 140.525 38.5913C140.172 39.2513 139.996 39.9572 139.996 40.7273C139.996 39.563 139.607 38.5546 138.831 37.7112C138.055 36.8587 137.111 36.4095 136 36.3545ZM101.831 49.0069C101.055 49.8503 100.111 50.2995 99 50.3545C100.111 50.4095 101.055 50.8587 101.831 51.7112C102.607 52.5546 102.996 53.563 102.996 54.7273C102.996 53.9572 103.172 53.2513 103.525 52.5913C103.886 51.9312 104.372 51.3995 104.98 51.0053C105.598 50.602 106.268 50.3911 107 50.3545C105.88 50.2903 104.936 49.8503 104.16 49.0069C103.384 48.1635 102.996 47.1642 102.996 46C102.996 47.1642 102.607 48.1635 101.831 49.0069Z"
+                  clip-rule="evenodd"
+                  fill-rule="evenodd"
+                ></path>
+              </svg>
+            </div>
+            <div class="theme-switch__circle-container">
+              <div class="theme-switch__sun-moon-container">
+                <div class="theme-switch__moon">
+                  <div class="theme-switch__spot"></div>
+                  <div class="theme-switch__spot"></div>
+                  <div class="theme-switch__spot"></div>
+                </div>
+              </div>
+            </div>
+            <div class="theme-switch__shooting-star"></div>
+            <div class="theme-switch__shooting-star-2"></div>
+            <div class="theme-switch__meteor"></div>
+            <div class="theme-switch__stars-cluster">
+              <div class="star"></div>
+              <div class="star"></div>
+              <div class="star"></div>
+              <div class="star"></div>
+              <div class="star"></div>
+            </div>
+            <div class="theme-switch__aurora"></div>
+            <div class="theme-switch__comets">
+              <div class="comet"></div>
+              <div class="comet"></div>
+            </div>
+          </div>
+        </label>
+        
+            <div class="language-switch">
+                <button class="lang-btn" onclick="toggleLanguage()">
+                    <span class="lang-icon">🌐</span>
+                    <span class="lang-text" data-lang="current-lang">EN</span>
+                </button>
+            </div>
+        </div>
+        <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+        </div>
+    </nav>
+    <!-- الغلاف الأول -->
+        <!-- القسم الرئيسي -->
+        <header class="hero" id="home">
+            <div class="hero-content">
+                <div class="signal-animation">
+                    <div class="signal-wave"></div>
+                    <div class="signal-wave"></div>
+                    <div class="signal-wave"></div>
+                </div>
+                <div class="circuit-animation">
+                    <div class="signal-dot signal-dot-1"></div>
+                    <div class="signal-dot signal-dot-2"></div>
+                    <div class="signal-dot signal-dot-3"></div>
+                    <div class="signal-path signal-path-1"></div>
+                    <div class="signal-path signal-path-2"></div>
+                </div>
+                <div class="hero-text">
+                    <div class="electric-shape">
+                        <div class="circuit-lines">
+                            <div class="line line-1"></div>
+                            <div class="line line-2"></div>
+                            <div class="line line-3"></div>
+                            <div class="dots">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 data-lang="hero-title">هاجر البريكي</h1>
+                    <h2 data-lang="hero-subtitle">مهندسة اتصالات وإلكترونيات</h2>
+                    <p class="hero-description" data-lang="hero-description">حاصلة على درجة البكالوريوس في هندسة الاتصالات من جامعة التقنية والعلوم التطبيقية، بمعدل تراكمي 3.03</p>
+                    <a href="resume.pdf" target="_blank" download class="download-cv">
+                        <span class="download-text" data-lang="download-cv">تحميل السيرة الذاتية</span>
+                        <span class="download-icon">
+                            <i class="fas fa-download"></i>
+                            <div class="electric-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </span>
+                    </a>
+                </div>
+                <div class="hero-animation">
+                    <div class="circuit-animation">
+                        <div class="circuit-pattern"></div>
+                        <div class="electric-lines">
+                            <div class="e-line"></div>
+                            <div class="e-line"></div>
+                            <div class="e-line"></div>
+                        </div>
+                        <div class="electric-dots">
+                            <div class="e-dot"></div>
+                            <div class="e-dot"></div>
+                            <div class="e-dot"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+                <p data-lang="scroll-text">اسحب للأسفل</p>
+            </div>
+        </header>
+    <main>
+        <!-- الهدف المهني -->
+        <section class="objective" id="objective">
+            <h2 data-lang="objective-title">الهدف المهني</h2>
+            <p data-lang="objective-text">الاستفادة من خبرتي في الهندسة الكهربائية للمساهمة في المشاريع المبتكرة، وتحسين الأنظمة، وتحسين كفاءة الطاقة. أهدف إلى تطبيق مهاراتي التقنية في تصميم وتحليل وتنفيذ الأنظمة الكهربائية، مع التعلم المستمر والتكيف مع التقنيات الناشئة. هدفي هو دفع تطوير حلول كهربائية مستدامة وموثوقة تلبي المعايير التنظيمية والصناعية.</p>
+        </section>
+
+        <!-- التعليم -->
+        <section class="education" id="education">
+            <h2 data-lang="education-title">التعليم</h2>
+            <div class="education-item">
+                <h3 data-lang="education-degree">بكالوريوس في هندسة الإلكترونيات والاتصالات</h3>
+                <p class="institution" data-lang="education-institution">جامعة التقنية والعلوم التطبيقية، المصنعة</p>
+                <p class="year" data-lang="education-year">2018 - 2023</p>
+            </div>
+        </section>
+
+        <!-- الخبرات -->
+        <section id="experience" class="experience-section">
+            <div class="section-header">
+                <h2 data-lang="experience-title">الخبرات العملية</h2>
+                <div class="electric-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="company-logo">
+                        <img src="images/448989723_909375674567338_1017082641927908915_n.jpg" alt="Omantel Logo" class="company-logo-img" loading="lazy">
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-lang="experience-omantel-title">مهندسة اتصالات - عمانتل</h3>
+                        <p class="timeline-date" data-lang="experience-omantel-date">2023 - الحالي</p>
+                        <ul class="timeline-details">
+                            <li data-lang="experience-omantel-detail1">العمل في قسم النقل والصيانة والتحويل</li>
+                            <li data-lang="experience-omantel-detail2">تصميم وتنفيذ حلول شبكات الاتصالات</li>
+                            <li data-lang="experience-omantel-detail3">صيانة وتحسين أداء الشبكات</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="company-logo">
+                        <img src="images/png-clipart-huawei-nexus-6p-logo-business-telecommunication-business-leaf-people-thumbnail.png" alt="Huawei Logo" class="company-logo-img" loading="lazy">
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-lang="experience-huawei-title">متدربة - هواوي</h3>
+                        <p class="timeline-date" data-lang="experience-huawei-date">2023</p>
+                        <ul class="timeline-details">
+                            <li data-lang="experience-huawei-detail1">التدريب على تقنيات شبكات الجيل الخامس 5G</li>
+                            <li data-lang="experience-huawei-detail2">العمل على مشاريع تطوير البنية التحتية للاتصالات</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- المهارات -->
+        <section id="skills" class="skills-section">
+            <div class="section-header">
+                <h2 data-lang="skills-title">المهارات</h2>
+                <div class="electric-line"></div>
+            </div>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3 data-lang="skills-technical">المهارات التقنية</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <span class="skill-name" data-lang="skill-office">برامج Microsoft Office</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name" data-lang="skill-internet">تصفح الإنترنت</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name" data-lang="skill-matlab">MATLAB</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 data-lang="skills-personal">المهارات الشخصية</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <span class="skill-name" data-lang="skill-teamwork">العمل الجماعي</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name" data-lang="skill-time">الالتزام بالمواعيد</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name" data-lang="skill-leadership">مهارات قيادية</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name" data-lang="skill-driving">رخصة قيادة</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- الشهادات -->
+        <section id="certificates" class="certificates-section">
+            <div class="section-header">
+                <h2 data-lang="certificates-title">الدورات التدريبية</h2>
+                <div class="electric-line"></div>
+            </div>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-microchip pulse-animation"></i>
+                    </div>
+                    <h3 data-lang="certificate-plc">برمجة وتصميم PLC</h3>
+                    <p class="certificate-date" data-lang="certificate-plc-date">2023</p>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-wave-square pulse-animation"></i>
+                    </div>
+                    <h3 data-lang="certificate-matlab">تصميم وتحليل باستخدام MATLAB</h3>
+                    <p class="certificate-date" data-lang="certificate-matlab-date">2023</p>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-broadcast-tower pulse-animation"></i>
+                    </div>
+                    <h3 data-lang="certificate-mit">MIT Inventor, ThingSpeak, VEX Microcontroller</h3>
+                    <p class="certificate-date" data-lang="certificate-mit-date">2023</p>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-table pulse-animation"></i>
+                    </div>
+                    <h3 data-lang="certificate-excel">أساسيات Microsoft Excel</h3>
+                    <p class="certificate-date" data-lang="certificate-excel-date">2024</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- تواصل معي -->
+        <section id="contact" class="contact-section">
+            <div class="section-header">
+                <h2 data-lang="contact-title">تواصل معي</h2>
+                <div class="electric-line"></div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3 data-lang="contact-email-title">البريد الإلكتروني</h3>
+                        <p data-lang="contact-email">hajar.alburaiqi@example.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h3 data-lang="contact-phone-title">الهاتف</h3>
+                        <p data-lang="contact-phone">93889104</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3 data-lang="contact-location-title">الموقع</h3>
+                        <p data-lang="contact-location">سلطنة عمان</p>
+                    </div>
+                </div>
+                <div class="social-buttons">
+                    <a href="https://wa.me/+96893889104" class="whatsapp-button" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i>
+                        <span data-lang="contact-whatsapp">تواصل عبر واتساب</span>
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="footer-logo">
+                    <div class="nav-logo">
+                        <i class="fas fa-satellite-dish"></i>
+                    </div>
+                    <span data-lang="footer-name" >هاجر البريكي</span>
+                   
+                </div>
+                <p data-lang="footer-description">مهندسة اتصالات وإلكترونيات</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home" data-lang="footer-home">الرئيسية</a>
+                <a href="#about" data-lang="footer-about">نبذة عني</a>
+                <a href="#experience" data-lang="footer-experience">الخبرات</a>
+                <a href="#skills" data-lang="footer-skills">المهارات</a>
+                <a href="#certificates" data-lang="footer-certificates">الدورات التدريبية</a>
+                <a href="#contact" data-lang="footer-contact">تواصل معي</a>
+            </div>
+            
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p><span data-lang="footer-rights">جميع الحقوق محفوظة</span> &copy; 2024 - <span data-lang="footer-designed">تم التصميم بواسطة</span> مؤسسة خالد الحارثي العالمية - للتواصل: 77222432</p>
+        </div>
+    </footer>
+    <script src="script.min.js"></script>
+</body>
+</html>
